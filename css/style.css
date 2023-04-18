@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +13,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /**************************/
@@ -23,8 +24,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 13rem;
+  padding: 1rem 17rem;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .logo {
@@ -68,14 +72,72 @@ body {
 }
 
 .hero {
+  padding-top: 7rem;
   height: 656px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.heading {
+.heading-primary {
   color: white;
   font-size: 4rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/**************************/
+/* PROJECTS SECTION */
+/**************************/
+.section-projects {
+  background-image: url(../background/Background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects {
+  min-height: 100vh;
+  padding: 8rem 0;
+}
+.projects-text {
+  padding-bottom: 6rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.paragrowth,
+.specteared,
+.fimpossible {
+  max-width: 400px;
+}
+.paragrowth img,
+.specteared img,
+.fimpossible img {
+  height: 560px;
+  width: auto;
+  border-radius: 2%;
+  transition: all 0.3s;
+}
+.paragrowth img:hover,
+.specteared img:hover,
+.fimpossible img:hover {
+  scale: 1.03;
+}
+
+.heading-secondary {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card-title {
+  padding: 1rem 0;
+}
+
+.card-paragraph {
+  color: rgb(172, 172, 172);
 }/*# sourceMappingURL=style.css.map */
