@@ -20,12 +20,12 @@
 .paragrowth,
 .specteared,
 .fimpossible {
-  max-width: 400px;
+  width: 17rem;
 }
 .paragrowth img,
 .specteared img,
 .fimpossible img {
-  height: 560px;
+  height: 25rem;
   width: auto;
   border-radius: 2%;
   transition: all 0.3s;
@@ -42,6 +42,7 @@
 
 .card-paragraph {
   color: rgb(172, 172, 172);
+  font-size: 0.8rem;
 }
 
 /**************************/
@@ -59,6 +60,10 @@
   padding-bottom: 2rem;
   font-size: 1.2rem;
   min-width: 28rem;
+}
+.more-list-item img {
+  height: 2rem;
+  width: auto;
 }
 
 .link {
