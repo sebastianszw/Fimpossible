@@ -104,10 +104,6 @@ video {
   font-size: 1.2rem;
   min-width: 28rem;
 }
-.more-list-item img {
-  height: 2rem;
-  width: auto;
-}
 
 .link {
   color: white;
@@ -139,4 +135,12 @@ video {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+}
+
+.mail-fimpossible-games,
+.mail-fimpossible-creations {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 3rem;
 }/*# sourceMappingURL=style.css.map */

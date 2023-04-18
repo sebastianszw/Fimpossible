@@ -103,11 +103,6 @@ video {
     padding-bottom: 2rem;
     font-size: 1.2rem;
     min-width: 28rem;
-
-    img {
-      height: 2rem;
-      width: auto;
-    }
   }
 }
 
@@ -143,4 +138,12 @@ video {
     display: flex;
     align-items: center;
   }
+}
+
+.mail-fimpossible-games,
+.mail-fimpossible-creations {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 3rem;
 }
