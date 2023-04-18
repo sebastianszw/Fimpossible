@@ -1,6 +1,34 @@
 /**************************/
-/* MAIN SECTION */
+/* HERO SECTION */
 /**************************/
+.hero-video {
+  width: 100%;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.video {
+  scroll-snap-align: start;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .logo {
   height: 6rem;
   width: auto;
@@ -18,6 +46,13 @@
 /**************************/
 /* PROJECTS SECTION */
 /**************************/
+.projects-content {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .paragrowth,
 .specteared,
 .fimpossible {
@@ -47,6 +82,13 @@
 /**************************/
 /* MORE SECTION */
 /**************************/
+.more-content {
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .more {
   &-list {
     display: flex;
@@ -83,6 +125,13 @@
 /**************************/
 /* ABOUT SECTION */
 /**************************/
+.about-content {
+  position: absolute;
+  top: 350%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .about {
   max-width: 50rem;
   left: 0;
