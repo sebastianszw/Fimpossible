@@ -1,38 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
 /**************************/
-/* HEADER */
+/* MAIN SECTION */
 /**************************/
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 17rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 .logo {
-  height: 5rem;
+  height: 6rem;
   width: auto;
   transition: all 0.3s;
 }
@@ -40,75 +10,13 @@ body {
   scale: 1.05;
 }
 
-/**************************/
-/* NAVIGATION */
-/**************************/
-.navigation-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.navigation-link {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1rem;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  color: white;
-  transition: all 0.2s;
-}
-.navigation-link:hover {
-  color: rgb(214, 62, 74);
-}
-
-/**************************/
-/* HERO SECTION */
-/**************************/
-.section-hero {
-  background-image: url(../background/Background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero {
-  padding-top: 7rem;
-  height: 656px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading-primary {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+.hero-text {
+  padding-top: 2rem;
 }
 
 /**************************/
 /* PROJECTS SECTION */
 /**************************/
-.section-projects {
-  background-image: url(../background/Background2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.projects {
-  min-height: 100vh;
-  padding: 8rem 0;
-}
-.projects-text {
-  padding-bottom: 6rem;
-}
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  max-width: 80rem;
-  margin: 0 auto;
-}
-
 .paragrowth,
 .specteared,
 .fimpossible {
@@ -128,12 +36,6 @@ body {
   scale: 1.03;
 }
 
-.heading-secondary {
-  color: rgb(255, 255, 255);
-  font-size: 2rem;
-  text-align: center;
-}
-
 .card-title {
   padding: 1rem 0;
 }
@@ -145,25 +47,10 @@ body {
 /**************************/
 /* MORE SECTION */
 /**************************/
-.space::before {
-  content: "";
-  padding: 4rem 0rem;
-}
-
-.section-more {
-  background-image: url(../background/Background3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.more {
-  padding: 8rem 0;
-}
 .more-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 4rem;
 }
 .more-list-item {
   display: flex;
@@ -172,10 +59,6 @@ body {
   padding-bottom: 2rem;
   font-size: 1.2rem;
   min-width: 28rem;
-}
-
-.red {
-  color: rgb(214, 62, 74);
 }
 
 .link {
@@ -189,50 +72,16 @@ body {
 }
 
 /**************************/
-/* MORE ABOUT */
+/* ABOUT SECTION */
 /**************************/
-.section-about {
-  background-image: url(../background/Background4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .about {
-  padding: 8rem 0;
-}
-.about-me {
   max-width: 50rem;
   left: 0;
   right: 0;
   margin: 0 auto;
-  padding-top: 5rem;
 }
-.about-me-paragraph {
+.about-text {
   font-size: 1.2rem;
-}
-
-/**************************/
-/* MORE CONTACT */
-/**************************/
-.section-contact {
-  background-image: url(../background/Background5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.contact {
-  padding: 8rem 0;
-}
-.contact-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 4rem;
-}
-.contact-list-item {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  padding-bottom: 2rem;
-  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
