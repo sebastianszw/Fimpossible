@@ -31,7 +31,7 @@ video {
 }
 
 .logo {
-  height: 6rem;
+  height: 9rem;
   width: auto;
   transition: all 0.3s;
 }
@@ -41,6 +41,17 @@ video {
 
 .hero-text {
   padding-top: 2rem;
+}
+
+.hero-footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 0.5rem 2rem;
+  font-size: 0.7rem;
+  font-weight: 200;
 }
 
 /**************************/
