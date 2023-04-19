@@ -4,23 +4,22 @@ ScrollTrigger.defaults({
   scroller: ".main",
 });
 
-/**************************/
-/* HERO SECTION */
-/**************************/
 gsap.fromTo(
-  ".grid-two-columns img",
-  { opacity: 0, y: -50 },
+  "body",
+  { opacity: 0 },
   {
-    scrollTrigger: ".section-hero",
+    scrollTrigger: ".main",
     opacity: 1,
-    y: 0,
     delay: 0.5,
     ease: Power0.easeNone,
   }
 );
 
+/**************************/
+/* HERO SECTION */
+/**************************/
 gsap.fromTo(
-  ".heading-primary",
+  ".grid-two-columns img",
   { opacity: 0, y: -50 },
   {
     scrollTrigger: ".section-hero",
@@ -32,13 +31,25 @@ gsap.fromTo(
 );
 
 gsap.fromTo(
+  ".heading-primary",
+  { opacity: 0, y: -50 },
+  {
+    scrollTrigger: ".section-hero",
+    opacity: 1,
+    y: 0,
+    delay: 1.5,
+    ease: Power0.easeNone,
+  }
+);
+
+gsap.fromTo(
   ".scroll-icon",
   { opacity: 0, y: -50 },
   {
     scrollTrigger: ".section-hero",
     opacity: 1,
     y: 0,
-    delay: 1.2,
+    delay: 2,
     ease: Power0.easeNone,
   }
 );
