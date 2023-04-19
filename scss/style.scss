@@ -43,17 +43,6 @@ video {
   padding-top: 2rem;
 }
 
-.hero-footer {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  padding: 0.5rem 2rem;
-  font-size: 0.7rem;
-  font-weight: 200;
-}
-
 /**************************/
 /* PROJECTS SECTION */
 /**************************/
@@ -157,4 +146,18 @@ video {
   align-items: center;
   gap: 2rem;
   padding-top: 3rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 0.5rem 2rem;
+  font-size: 0.7rem;
+  font-weight: 200;
 }
