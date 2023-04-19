@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <script
       src="https://kit.fontawesome.com/69aa13af25.js"
       crossorigin="anonymous"
     ></script>
@@ -110,7 +119,9 @@
       </section>
       <section class="section-projects">
         <div class="container projects-content">
-          <h2 class="heading-secondary">Check out Fimpossible projects:</h2>
+          <h2 class="heading-secondary heading-projects">
+            Check out Fimpossible projects:
+          </h2>
           <div class="grid-three-columns">
             <div class="paragrowth">
               <a
@@ -176,9 +187,9 @@
       </section>
       <section class="section-more">
         <div class="container more-content">
-          <h2 class="heading-secondary">Visit for more:</h2>
+          <h2 class="heading-secondary heading-more">Visit for more:</h2>
           <div class="grid-two-columns">
-            <ul class="more-list">
+            <ul class="more-list more-column-left">
               <li class="more-list-item">
                 <a href="#" class="link">
                   <img
@@ -232,7 +243,7 @@
                 </a>
               </li>
             </ul>
-            <ul class="more-list">
+            <ul class="more-list more-column-right">
               <li class="more-list-item">
                 <a
                   href="https://assetstore.unity.com/publishers/37262"
@@ -291,7 +302,7 @@
           </video>
         </div>
         <div class="container about-content">
-          <h2 class="heading-secondary">About:</h2>
+          <h2 class="heading-secondary heading-about">About:</h2>
           <div class="about">
             <p class="about-text">
               I am an independent game developer based in Poland.
