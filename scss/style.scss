@@ -107,10 +107,14 @@ video {
 }
 
 .link {
+  display: flex;
+  align-items: center;
+  //justify-content: center;
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.5);
   transition: all 0.2s;
+  gap: 1rem;
 
   &:hover {
     color: rgb(214, 62, 74);
