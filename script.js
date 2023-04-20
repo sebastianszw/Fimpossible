@@ -8,7 +8,7 @@ gsap.fromTo(
   "body",
   { opacity: 0 },
   {
-    scrollTrigger: ".main",
+    scrollTrigger: "body",
     opacity: 1,
     delay: 0.5,
     ease: Power0.easeNone,
