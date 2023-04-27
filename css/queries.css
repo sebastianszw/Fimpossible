@@ -1,4 +1,7 @@
 @media (max-width: 576px) {
+  .video {
+    display: none;
+  }
   .container {
     max-width: 70vw;
   }
