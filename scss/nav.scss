@@ -30,11 +30,21 @@
   img {
     height: 2.5rem;
     width: auto;
+    padding-right: 1rem;
   }
 
   & .link {
-    font-size: 1.3rem;
-    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    //justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.5);
+    transition: all 0.2s;
+
+    &:hover {
+      color: rgb(214, 62, 74);
+    }
   }
 }
 

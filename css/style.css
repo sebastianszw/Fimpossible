@@ -1,5 +1,5 @@
 /**************************/
-/* HERO SECTION */
+/* VIDEO */
 /**************************/
 .hero-video {
   width: 100%;
@@ -15,19 +15,19 @@ video {
   z-index: -1;
 }
 
-.video {
-  scroll-snap-align: start;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.hero-content {
+/**************************/
+/* HERO SECTION */
+/**************************/
+.hero-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hero-content-logos {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -39,125 +39,32 @@ video {
   scale: 1.05;
 }
 
-.hero-text {
-  padding-top: 2rem;
-}
-
 /**************************/
 /* PROJECTS SECTION */
 /**************************/
-.projects-content {
+.projects-center {
   position: absolute;
   top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.paragrowth,
-.specteared,
-.fimpossible {
-  width: 17rem;
-}
-.paragrowth img,
-.specteared img,
-.fimpossible img {
-  height: 25rem;
-  width: auto;
-  border-radius: 2%;
-  transition: all 0.3s;
-}
-.paragrowth img:hover,
-.specteared img:hover,
-.fimpossible img:hover {
-  scale: 1.03;
-}
-
-.card-title {
-  padding: 1rem 0;
-}
-
-.card-paragraph {
-  color: rgb(172, 172, 172);
-  font-size: 0.8rem;
-}
-
 /**************************/
 /* MORE SECTION */
 /**************************/
-.more-content {
+.more-center {
   position: absolute;
   top: 250%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.more-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.more-list-item {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding-bottom: 2rem;
-  font-size: 1.2rem;
-  min-width: 28rem;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  transition: all 0.2s;
-  gap: 1rem;
-}
-.link:hover {
-  color: rgb(214, 62, 74);
-}
-
 /**************************/
 /* ABOUT SECTION */
 /**************************/
-.about-content {
+.about-center {
   position: absolute;
   top: 350%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.about {
-  max-width: 50rem;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-.about-text {
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-}
-
-.mail-fimpossible-games,
-.mail-fimpossible-creations {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding-top: 3rem;
-}
-
-/**************************/
-/* FOOTER */
-/**************************/
-.footer {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  padding: 0.5rem 2rem;
-  font-size: 0.7rem;
-  font-weight: 200;
 }/*# sourceMappingURL=style.css.map */
