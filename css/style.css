@@ -49,6 +49,34 @@ video {
   transform: translate(-50%, -50%);
 }
 
+.paragrowth,
+.specteared,
+.fimpossible {
+  width: 17rem;
+}
+.paragrowth img,
+.specteared img,
+.fimpossible img {
+  height: 25rem;
+  width: auto;
+  border-radius: 2%;
+  transition: all 0.3s;
+}
+.paragrowth img:hover,
+.specteared img:hover,
+.fimpossible img:hover {
+  scale: 1.03;
+}
+
+.card-title {
+  padding: 1rem 0;
+}
+
+.card-paragraph {
+  color: rgb(172, 172, 172);
+  font-size: 0.8rem;
+}
+
 /**************************/
 /* MORE SECTION */
 /**************************/

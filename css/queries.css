@@ -1,3 +1,26 @@
+@media (max-width: 992px) {
+  .container {
+    max-width: 80vw;
+  }
+  .logo {
+    height: 7rem !important;
+    width: auto;
+  }
+  .heading-primary {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .heading-secondary {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .projects-content {
+    display: none;
+  }
+  .soon {
+    display: flex;
+  }
+}
 @media (max-width: 576px) {
   .video {
     display: none;
@@ -15,19 +38,6 @@
   }
   .heading-primary {
     font-size: 1.5rem;
-    text-align: center;
-  }
-}
-@media (max-width: 992px) {
-  .container {
-    max-width: 80vw;
-  }
-  .logo {
-    height: 7rem !important;
-    width: auto;
-  }
-  .heading-primary {
-    font-size: 2rem;
     text-align: center;
   }
 }/*# sourceMappingURL=queries.css.map */
