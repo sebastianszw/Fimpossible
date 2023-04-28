@@ -129,4 +129,21 @@ video {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+.footer .link {
+  padding-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
