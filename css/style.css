@@ -43,10 +43,8 @@ video {
 /* PROJECTS SECTION */
 /**************************/
 .projects-center {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
 }
 
 .paragrowth,
@@ -81,24 +79,8 @@ video {
 /* MORE SECTION */
 /**************************/
 .more-center {
-  position: absolute;
-  top: 250%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.more-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.more-list-item {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding-bottom: 2rem;
-  font-size: 1.2rem;
-  min-width: 28rem;
+  justify-content: center;
 }
 
 .link {
@@ -109,9 +91,14 @@ video {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   transition: all 0.2s;
   gap: 1rem;
+  padding-bottom: 2rem;
 }
 .link:hover {
   color: rgb(214, 62, 74);
+}
+
+.icon {
+  height: 3rem;
 }
 
 /**************************/

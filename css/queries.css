@@ -1,7 +1,4 @@
 @media (max-width: 992px) {
-  .container {
-    max-width: 80vw;
-  }
   .logo {
     height: 7rem !important;
     width: auto;
@@ -23,13 +20,23 @@
   }
   .grid-two-columns {
     grid-template-columns: 1fr;
+    gap: 2rem !important;
+    justify-content: left !important;
+  }
+  .link {
+    justify-content: center;
+  }
+  .icon {
+    height: 3rem;
+    width: auto;
   }
 }
 @media (max-width: 576px) {
   .video {
     display: none;
   }
-  .container {
+  .hero-content,
+  .projects-content {
     max-width: 70vw;
   }
   .hero-content-logos {
@@ -46,12 +53,8 @@
   .heading-secondary {
     font-size: 1rem;
   }
-  .more-list-item {
-    font-size: 1rem !important;
-    justify-content: center;
-  }
   .icon {
-    height: 1.3rem;
+    height: 1.5rem !important;
     width: auto;
   }
 }/*# sourceMappingURL=queries.css.map */

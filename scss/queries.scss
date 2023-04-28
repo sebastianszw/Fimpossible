@@ -1,6 +1,6 @@
 @media (max-width: 992px) {
   .container {
-    max-width: 80vw;
+    //max-width: 80vw;
   }
 
   .logo {
@@ -29,6 +29,17 @@
 
   .grid-two-columns {
     grid-template-columns: 1fr;
+    gap: 2rem !important;
+    justify-content: left !important;
+  }
+
+  .link {
+    justify-content: center;
+  }
+
+  .icon {
+    height: 3rem;
+    width: auto;
   }
 }
 
@@ -37,7 +48,8 @@
     display: none;
   }
 
-  .container {
+  .hero-content,
+  .projects-content {
     max-width: 70vw;
   }
 
@@ -59,13 +71,8 @@
     font-size: 1rem;
   }
 
-  .more-list-item {
-    font-size: 1rem !important;
-    justify-content: center;
-  }
-
   .icon {
-    height: 1.3rem;
+    height: 1.5rem !important;
     width: auto;
   }
 }
