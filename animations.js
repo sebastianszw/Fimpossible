@@ -170,3 +170,18 @@ gsap.fromTo(
     ease: Power0.easeNone,
   }
 );
+
+/**************************/
+/* FOOTER */
+/**************************/
+gsap.fromTo(
+  ".footer",
+  { opacity: 0, y: 50 },
+  {
+    scrollTrigger: ".section-hero",
+    opacity: 1,
+    y: 0,
+    delay: 1,
+    ease: Power0.easeNone,
+  }
+);
