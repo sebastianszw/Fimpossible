@@ -30,6 +30,12 @@
     height: 3rem;
     width: auto;
   }
+  .about {
+    max-width: 80vw !important;
+  }
+  .about-text {
+    font-size: 1rem !important;
+  }
 }
 @media (max-width: 576px) {
   .video {

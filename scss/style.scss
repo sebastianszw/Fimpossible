@@ -122,3 +122,24 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.about {
+  max-width: 50rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  &-text {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+}
+
+.mail-fimpossible-games,
+.mail-fimpossible-creations {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

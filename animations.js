@@ -131,3 +131,42 @@ gsap.fromTo(
     ease: Power0.easeNone,
   }
 );
+
+/**************************/
+/* SECTION ABOUT */
+/**************************/
+gsap.fromTo(
+  ".heading-about",
+  { opacity: 0, y: -50 },
+  {
+    scrollTrigger: ".section-about",
+    opacity: 1,
+    y: 0,
+    delay: 1,
+    ease: Power0.easeNone,
+  }
+);
+
+gsap.fromTo(
+  ".about-text",
+  { opacity: 0, y: -50 },
+  {
+    scrollTrigger: ".section-about",
+    opacity: 1,
+    y: 0,
+    delay: 1.2,
+    ease: Power0.easeNone,
+  }
+);
+
+gsap.fromTo(
+  ".mail-fimpossible-games, .mail-fimpossible-creations",
+  { opacity: 0, y: 50 },
+  {
+    scrollTrigger: ".section-about",
+    opacity: 1,
+    y: 0,
+    delay: 1.4,
+    ease: Power0.easeNone,
+  }
+);
