@@ -25,6 +25,10 @@
   .soon {
     display: flex;
   }
+
+  .grid-two-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 576px) {
@@ -48,6 +52,19 @@
 
   .heading-primary {
     font-size: 1.5rem;
-    text-align: center;
+  }
+
+  .heading-secondary {
+    font-size: 1rem;
+  }
+
+  .more-list-item {
+    font-size: 1rem !important;
+    justify-content: center;
+  }
+
+  .icon {
+    height: 1.3rem;
+    width: auto;
   }
 }
