@@ -14,9 +14,6 @@
     font-size: 1.5rem !important;
     text-align: center;
   }
-  .projects-content {
-    display: none;
-  }
   .soon {
     display: flex;
   }
@@ -25,6 +22,9 @@
   }
 }
 @media (max-width: 576px) {
+  .video {
+    display: none;
+  }
   .container {
     max-width: 70vw;
   }

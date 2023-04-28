@@ -18,10 +18,6 @@
     text-align: center;
   }
 
-  .projects-content {
-    display: none;
-  }
-
   .soon {
     display: flex;
   }
@@ -33,7 +29,7 @@
 
 @media (max-width: 576px) {
   .video {
-    //display: none;
+    display: none;
   }
 
   .container {
