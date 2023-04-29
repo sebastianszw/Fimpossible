@@ -82,6 +82,58 @@ video {
   font-size: 0.8rem;
 }
 
+/*ONLY TABLET AND PHONE*/
+.projects-dropdown-container {
+  display: none;
+  padding: 1rem 0px;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(236, 236, 236);
+  width: 60vw;
+}
+.projects-dropdown-container.active .projects-dropdown-header {
+  color: rgb(236, 67, 67);
+}
+.projects-dropdown-container.active .arrow-icon {
+  transform: rotate(180deg);
+}
+.projects-dropdown-container.active .projects-dropdown-more {
+  max-height: 500px;
+}
+
+.projects-dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects-dropdown-header:hover {
+  color: rgb(236, 67, 67);
+}
+.projects-dropdown-header .arrow-icon {
+  height: 1.5rem;
+  width: auto;
+  transition: 0.5s all;
+}
+
+.projects-dropdown-more {
+  max-height: 0;
+  overflow: hidden;
+  transition: 1s all;
+  color: rgb(120, 120, 120);
+  text-align: center;
+}
+.projects-dropdown-more-card {
+  height: 300px !important;
+  width: auto;
+  border-radius: 5px;
+}
+.projects-dropdown-more p {
+  margin-top: 25px;
+}
+
+.space {
+  padding: 1rem 0;
+}
+
 /**************************/
 /* MORE SECTION */
 /**************************/
