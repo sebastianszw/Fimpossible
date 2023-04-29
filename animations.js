@@ -42,6 +42,18 @@ gsap.fromTo(
   }
 );
 
+gsap.fromTo(
+  ".hero-content-icon",
+  { opacity: 0, y: 50 },
+  {
+    scrollTrigger: ".section-hero",
+    opacity: 1,
+    y: 0,
+    delay: 0.9,
+    ease: Power0.easeNone,
+  }
+);
+
 /**************************/
 /* SECTION PROJECTS */
 /**************************/
