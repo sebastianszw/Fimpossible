@@ -25,7 +25,7 @@ gsap.fromTo(
     scrollTrigger: ".section-hero",
     opacity: 1,
     y: 0,
-    delay: 1,
+    delay: 0.5,
     ease: Power0.easeNone,
   }
 );
@@ -37,7 +37,7 @@ gsap.fromTo(
     scrollTrigger: ".section-hero",
     opacity: 1,
     y: 0,
-    delay: 1.2,
+    delay: 0.7,
     ease: Power0.easeNone,
   }
 );
@@ -52,7 +52,7 @@ gsap.fromTo(
     scrollTrigger: ".section-projects",
     opacity: 1,
     y: 0,
-    delay: 1,
+    delay: 0.5,
     ease: Power0.easeNone,
   }
 );
@@ -64,7 +64,7 @@ gsap.fromTo(
     scrollTrigger: ".section-projects",
     opacity: 1,
     y: 0,
-    delay: 1.2,
+    delay: 0.7,
     ease: Power0.easeNone,
   }
 );
@@ -76,7 +76,7 @@ gsap.fromTo(
     scrollTrigger: ".section-projects",
     opacity: 1,
     y: 0,
-    delay: 1.4,
+    delay: 0.9,
     ease: Power0.easeNone,
   }
 );
@@ -88,7 +88,7 @@ gsap.fromTo(
     scrollTrigger: ".section-projects",
     opacity: 1,
     y: 0,
-    delay: 1.6,
+    delay: 1.1,
     ease: Power0.easeNone,
   }
 );
@@ -103,7 +103,7 @@ gsap.fromTo(
     scrollTrigger: ".section-more",
     opacity: 1,
     y: 0,
-    delay: 1,
+    delay: 0.5,
     ease: Power0.easeNone,
   }
 );
@@ -115,7 +115,7 @@ gsap.fromTo(
     scrollTrigger: ".section-more",
     opacity: 1,
     y: 0,
-    delay: 1.2,
+    delay: 0.7,
     ease: Power0.easeNone,
   }
 );
@@ -127,7 +127,7 @@ gsap.fromTo(
     scrollTrigger: ".section-more",
     opacity: 1,
     y: 0,
-    delay: 1.4,
+    delay: 0.9,
     ease: Power0.easeNone,
   }
 );
@@ -142,7 +142,7 @@ gsap.fromTo(
     scrollTrigger: ".section-about",
     opacity: 1,
     y: 0,
-    delay: 1,
+    delay: 0.5,
     ease: Power0.easeNone,
   }
 );
@@ -154,7 +154,7 @@ gsap.fromTo(
     scrollTrigger: ".section-about",
     opacity: 1,
     y: 0,
-    delay: 1.2,
+    delay: 0.7,
     ease: Power0.easeNone,
   }
 );
@@ -166,7 +166,7 @@ gsap.fromTo(
     scrollTrigger: ".section-about",
     opacity: 1,
     y: 0,
-    delay: 1.4,
+    delay: 0.9,
     ease: Power0.easeNone,
   }
 );
@@ -181,7 +181,7 @@ gsap.fromTo(
     scrollTrigger: ".section-hero",
     opacity: 1,
     y: 0,
-    delay: 1,
+    delay: 0.5,
     ease: Power0.easeNone,
   }
 );
