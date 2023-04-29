@@ -88,6 +88,11 @@ video {
 }
 
 /*ONLY TABLET AND PHONE*/
+.for-mobile {
+  display: none;
+  text-align: center;
+}
+
 .projects-dropdown-container {
   display: none;
   padding: 1rem 0px;

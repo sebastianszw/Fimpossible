@@ -86,6 +86,10 @@
   }
 
   .projects-dropdown-container {
-    width: auto !important;
+    display: none !important;
+  }
+
+  .for-mobile {
+    display: block !important;
   }
 }
