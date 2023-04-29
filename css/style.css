@@ -90,7 +90,6 @@ video {
   padding: 1rem 0px;
   cursor: pointer;
   border-bottom: 2px solid rgb(236, 236, 236);
-  width: 60vw;
 }
 .projects-dropdown-container.active .projects-dropdown-header {
   color: rgb(236, 67, 67);
@@ -122,6 +121,7 @@ video {
   transition: 1s all;
   color: rgb(120, 120, 120);
   text-align: center;
+  padding-top: 0.5rem;
 }
 .projects-dropdown-more-card {
   height: 300px !important;

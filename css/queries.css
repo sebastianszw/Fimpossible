@@ -32,6 +32,7 @@
   }
   .projects-dropdown-container {
     display: block !important;
+    width: 80vw !important;
   }
   .about {
     max-width: 80vw !important;
@@ -65,5 +66,8 @@
   .icon {
     height: 1.5rem !important;
     width: auto;
+  }
+  .projects-dropdown-container {
+    width: auto !important;
   }
 }/*# sourceMappingURL=queries.css.map */
