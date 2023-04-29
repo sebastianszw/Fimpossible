@@ -50,8 +50,10 @@ video {
 /* PROJECTS SECTION */
 /**************************/
 .projects-center {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .paragrowth,
@@ -138,8 +140,10 @@ video {
 /* MORE SECTION */
 /**************************/
 .more-center {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .link {
