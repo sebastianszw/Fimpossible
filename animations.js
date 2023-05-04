@@ -105,6 +105,18 @@ gsap.fromTo(
   }
 );
 
+gsap.fromTo(
+  ".for-mobile",
+  { opacity: 0, y: 50 },
+  {
+    scrollTrigger: ".section-projects",
+    opacity: 1,
+    y: 0,
+    delay: 1.1,
+    ease: Power0.easeNone,
+  }
+);
+
 /**************************/
 /* SECTION MORE */
 /**************************/

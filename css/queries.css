@@ -7,21 +7,27 @@
     font-size: 2rem;
     text-align: center;
   }
+  .projects-content {
+    max-width: 70vw;
+  }
   .heading-secondary {
     font-size: 1.5rem !important;
     text-align: center;
   }
   .grid-three-columns {
-    display: none;
+    overflow-x: auto !important;
+    width: 100%;
   }
-  .soon {
-    display: flex;
-    justify-content: center;
+  .for-mobile {
+    display: grid !important;
   }
   .grid-two-columns {
     grid-template-columns: 1fr;
     gap: 2rem !important;
     justify-content: left !important;
+  }
+  .card-paragraph {
+    padding-bottom: 1rem;
   }
   .link {
     justify-content: center;
@@ -29,10 +35,6 @@
   .icon {
     height: 3rem;
     width: auto;
-  }
-  .projects-dropdown-container {
-    display: block !important;
-    width: 80vw !important;
   }
   .about {
     max-width: 80vw !important;
@@ -45,8 +47,7 @@
   .video {
     display: none;
   }
-  .hero-content,
-  .projects-content {
+  .hero-content {
     max-width: 70vw;
   }
   .hero-content-logos {
@@ -66,11 +67,5 @@
   .icon {
     height: 1.5rem !important;
     width: auto;
-  }
-  .projects-dropdown-container {
-    display: none !important;
-  }
-  .for-mobile {
-    display: block !important;
   }
 }/*# sourceMappingURL=queries.css.map */
