@@ -64,6 +64,17 @@
   .heading-secondary {
     font-size: 1rem;
   }
+  .paragrowth,
+  .specteared,
+  .fimpossible {
+    width: 11rem !important;
+  }
+  .paragrowth img,
+  .specteared img,
+  .fimpossible img {
+    height: 16rem !important;
+    width: auto;
+  }
   .icon {
     height: 1.5rem !important;
     width: auto;
