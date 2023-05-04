@@ -62,7 +62,8 @@
     font-size: 1.5rem;
   }
   .heading-secondary {
-    font-size: 1rem;
+    font-size: 0.8rem !important;
+    padding-bottom: 2rem !important;
   }
   .paragrowth,
   .specteared,
