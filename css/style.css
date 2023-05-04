@@ -1,10 +1,6 @@
 /**************************/
 /* VIDEO */
 /**************************/
-.hero-video {
-  width: 100%;
-}
-
 video {
   -o-object-fit: cover;
      object-fit: cover;
@@ -84,7 +80,7 @@ video {
   font-size: 0.8rem;
 }
 
-/*ONLY TABLET AND PHONE*/
+/*ONLY MOBILE DEVICES*/
 .for-mobile {
   display: none;
   padding-top: 1.5rem;

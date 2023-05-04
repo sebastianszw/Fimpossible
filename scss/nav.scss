@@ -2,10 +2,6 @@
   position: absolute;
 }
 
-.button {
-  padding: 2rem;
-}
-
 .navigation {
   display: flex;
   justify-content: end;
@@ -14,6 +10,51 @@
   z-index: 1;
   width: 100%;
   font-family: "Poppins", sans-serif;
+}
+
+.button {
+  padding: 2rem;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 2;
+  padding-right: 20px;
+}
+
+#menuToggle {
+  display: none;
+  z-index: 4;
+}
+
+#menuToggle:checked ~ .menu {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.fa-bars {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.menu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  left: -100vw;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  top: 0;
 }
 
 .nav-list {
@@ -46,45 +87,4 @@
       color: rgb(214, 62, 74);
     }
   }
-}
-
-.menu {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  background: rgb(0, 0, 0);
-  left: -100vw;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
-  top: 0;
-}
-
-.menu-icon {
-  cursor: pointer;
-  font-size: 20px;
-  z-index: 2;
-  padding-right: 20px;
-}
-
-.fa-bars {
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-}
-
-#menuToggle {
-  display: none;
-  z-index: 4;
-}
-
-#menuToggle:checked ~ .menu {
-  position: absolute;
-  left: 0;
-  z-index: -1;
 }

@@ -1,41 +1,45 @@
 @media (max-width: 992px) {
-  .logo {
-    height: 7rem !important;
-    width: auto;
-  }
   .heading-primary {
     font-size: 2rem;
     text-align: center;
-  }
-  .projects-content {
-    max-width: 70vw;
   }
   .heading-secondary {
     font-size: 1.5rem !important;
     text-align: center;
   }
+  .icon {
+    height: 3rem;
+    width: auto;
+  }
+  /*HERO SECTION*/
+  .logo {
+    height: 7rem !important;
+    width: auto;
+  }
+  /*PROJECTS SECTION*/
+  .projects-content {
+    max-width: 70vw;
+  }
   .grid-three-columns {
     overflow-x: auto !important;
     width: 100%;
   }
+  .card-paragraph {
+    padding-bottom: 1rem;
+  }
   .for-mobile {
     display: grid !important;
   }
+  /*MORE SECTION*/
   .grid-two-columns {
     grid-template-columns: 1fr;
     gap: 2rem !important;
     justify-content: left !important;
   }
-  .card-paragraph {
-    padding-bottom: 1rem;
-  }
   .link {
     justify-content: center;
   }
-  .icon {
-    height: 3rem;
-    width: auto;
-  }
+  /*ABOUT SECTION*/
   .about {
     max-width: 80vw !important;
   }
@@ -50,6 +54,18 @@
   .video {
     display: none;
   }
+  .heading-primary {
+    font-size: 1.5rem;
+  }
+  .heading-secondary {
+    font-size: 0.8rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .icon {
+    height: 1.5rem !important;
+    width: auto;
+  }
+  /*HERO SECTION*/
   .hero-content {
     max-width: 70vw;
   }
@@ -61,13 +77,7 @@
     height: 5rem !important;
     width: auto;
   }
-  .heading-primary {
-    font-size: 1.5rem;
-  }
-  .heading-secondary {
-    font-size: 0.8rem !important;
-    padding-bottom: 2rem !important;
-  }
+  /*PROJECTS SECTION*/
   .paragrowth,
   .specteared,
   .fimpossible {
@@ -77,10 +87,6 @@
   .specteared img,
   .fimpossible img {
     height: 16rem !important;
-    width: auto;
-  }
-  .icon {
-    height: 1.5rem !important;
     width: auto;
   }
 }/*# sourceMappingURL=queries.css.map */

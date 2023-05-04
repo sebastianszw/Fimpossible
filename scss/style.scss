@@ -1,10 +1,6 @@
 /**************************/
 /* VIDEO */
 /**************************/
-.hero-video {
-  width: 100%;
-}
-
 video {
   object-fit: cover;
   width: 100%;
@@ -18,13 +14,10 @@ video {
 /* HERO SECTION */
 /**************************/
 .hero-center {
-  //display: flex;
-  //justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  //z-index: 999;
 }
 
 .hero-content-logos {
@@ -53,8 +46,6 @@ video {
 /* PROJECTS SECTION */
 /**************************/
 .projects-center {
-  //display: flex;
-  //justify-content: center;
   position: absolute;
   top: 150%;
   left: 50%;
@@ -87,7 +78,7 @@ video {
   font-size: 0.8rem;
 }
 
-/*ONLY TABLET AND PHONE*/
+/*ONLY MOBILE DEVICES*/
 .for-mobile {
   display: none;
   padding-top: 1.5rem;
