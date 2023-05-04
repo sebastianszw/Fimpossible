@@ -19,7 +19,8 @@
   }
 
   .grid-three-columns {
-    overflow-x: auto !important;
+    overflow-x: visible !important;
+    //overflow-x: auto !important;
     width: 100%;
   }
 

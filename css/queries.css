@@ -15,7 +15,7 @@
     text-align: center;
   }
   .grid-three-columns {
-    overflow-x: auto !important;
+    overflow-x: visible !important;
     width: 100%;
   }
   .for-mobile {
